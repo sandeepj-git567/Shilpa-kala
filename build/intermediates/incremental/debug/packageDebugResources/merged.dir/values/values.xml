@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="chip_selected">#2D6A4F</color>
+    <color name="chip_selector">#EEEEEE</color>
+    <color name="chip_unselected">#F0F0F0</color>
+    <color name="cream_bg">#FDF8F0</color>
+    <color name="dark_text">#1A1208</color>
+    <color name="gold">#C9922A</color>
+    <color name="karnataka_green">#2D6A4F</color>
+    <color name="karnataka_green_dark">#1B4332</color>
+    <color name="saffron">#E07B29</color>
+    <color name="saffron_light">#FDF0E0</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="button_radius">12dp</dimen>
+    <dimen name="card_radius">12dp</dimen>
+    <dimen name="header_height">64dp</dimen>
+    <dimen name="screen_padding">16dp</dimen>
+    <dimen name="shutter_size">72dp</dimen>
+    <string name="app_name">Shilpa-Kala</string>
+    <string name="camera_permission_required">Camera permission is required to capture product photos</string>
+    <string name="capture_photo">📷  Capture Photo</string>
+    <string name="heritage_label">HANDMADE IN KARNATAKA</string>
+    <string name="next">Next →</string>
+    <string name="retake">Retake</string>
+    <string name="tagline">Digital Portfolio Assistant for Artisans</string>
+    <style name="Theme.ShilpaKala" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/karnataka_green</item>
+        <item name="colorPrimaryVariant">@color/karnataka_green_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/saffron</item>
+        <item name="colorSecondaryVariant">@color/saffron_light</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:colorBackground">@color/cream_bg</item>
+        <item name="android:statusBarColor">@color/karnataka_green_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="chipStyle">@style/Widget.MaterialComponents.Chip.Choice</item>
+    </style>
+</resources>

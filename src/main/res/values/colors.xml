@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="karnataka_green">#2D6A4F</color>
+    <color name="karnataka_green_dark">#1B4332</color>
+    <color name="saffron">#E07B29</color>
+    <color name="saffron_light">#FDF0E0</color>
+    <color name="gold">#C9922A</color>
+    <color name="cream_bg">#FDF8F0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="dark_text">#1A1208</color>
+    <color name="chip_selected">#2D6A4F</color>
+    <color name="chip_unselected">#F0F0F0</color>
+    <color name="chip_selector">#EEEEEE</color>
+    <color name="black">#000000</color>
+</resources>

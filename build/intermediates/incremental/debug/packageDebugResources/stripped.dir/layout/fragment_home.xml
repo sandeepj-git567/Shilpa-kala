@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream_bg"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Hero Banner -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/karnataka_green"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🎨"
+                android:textSize="56sp"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shilpa-Kala"
+                android:textColor="@color/white"
+                android:textSize="28sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Digital Portfolio Assistant"
+                android:textColor="#AAFFFFFF"
+                android:textSize="14sp"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your craft deserves to look premium. Capture, brand and share like a luxury catalog."
+                android:textColor="#CCFFFFFF"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:lineSpacingMultiplier="1.4"/>
+
+        </LinearLayout>
+
+        <!-- Heritage Strip -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/saffron"
+            android:padding="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🌿  Proudly made for artisans of Karnataka"
+                android:textColor="@color/white"
+                android:textSize="13sp"/>
+        </LinearLayout>
+
+        <!-- Feature Cards -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:padding="12dp"
+            android:useDefaultMargins="true">
+
+            <include layout="@layout/item_feature_card"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"/>
+            <include layout="@layout/item_feature_card2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"/>
+            <include layout="@layout/item_feature_card3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"/>
+            <include layout="@layout/item_feature_card4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"/>
+
+        </GridLayout>
+
+        <!-- How it works -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How it works"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark_text"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="@color/white"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="12dp">
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="1️⃣  Take a photo using our guided camera"
+                android:textSize="14sp" android:textColor="@color/dark_text"
+                android:paddingBottom="8dp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="2️⃣  Enter your name, product details and price"
+                android:textSize="14sp" android:textColor="@color/dark_text"
+                android:paddingBottom="8dp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="3️⃣  Get a professional branded photo instantly"
+                android:textSize="14sp" android:textColor="@color/dark_text"
+                android:paddingBottom="8dp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="4️⃣  Share on WhatsApp or Facebook"
+                android:textSize="14sp" android:textColor="@color/dark_text"/>
+        </LinearLayout>
+
+        <!-- CTA Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnStartCapture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="24dp"
+            android:text="📷  Start Capturing Your Product"
+            android:textSize="16sp"
+            android:padding="16dp"
+            app:backgroundTint="@color/karnataka_green"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+</ScrollView>

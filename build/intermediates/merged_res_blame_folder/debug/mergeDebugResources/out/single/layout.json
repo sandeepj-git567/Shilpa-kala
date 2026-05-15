@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.shilpakala.app-mergeDebugResources-51:/layout/item_feature_card4.xml",
+        "source": "com.shilpakala.app-main-54:/layout/item_feature_card4.xml"
+    },
+    {
+        "merged": "com.shilpakala.app-mergeDebugResources-51:/layout/item_feature_card2.xml",
+        "source": "com.shilpakala.app-main-54:/layout/item_feature_card2.xml"
+    },
+    {
+        "merged": "com.shilpakala.app-mergeDebugResources-51:/layout/fragment_details.xml",
+        "source": "com.shilpakala.app-main-54:/layout/fragment_details.xml"
+    },
+    {
+        "merged": "com.shilpakala.app-mergeDebugResources-51:/layout/item_feature_card.xml",
+        "source": "com.shilpakala.app-main-54:/layout/item_feature_card.xml"
+    },
+    {
+        "merged": "com.shilpakala.app-mergeDebugResources-51:/layout/fragment_preview.xml",
+        "source": "com.shilpakala.app-main-54:/layout/fragment_preview.xml"
+    },
+    {
+        "merged": "com.shilpakala.app-mergeDebugResources-51:/layout/fragment_camera.xml",
+        "source": "com.shilpakala.app-main-54:/layout/fragment_camera.xml"
+    },
+    {
+        "merged": "com.shilpakala.app-mergeDebugResources-51:/layout/fragment_home.xml",
+        "source": "com.shilpakala.app-main-54:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.shilpakala.app-mergeDebugResources-51:/layout/item_feature_card3.xml",
+        "source": "com.shilpakala.app-main-54:/layout/item_feature_card3.xml"
+    },
+    {
+        "merged": "com.shilpakala.app-mergeDebugResources-51:/layout/activity_main.xml",
+        "source": "com.shilpakala.app-main-54:/layout/activity_main.xml"
+    }
+]

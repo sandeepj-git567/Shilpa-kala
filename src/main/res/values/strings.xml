@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shilpa-Kala</string>
+    <string name="heritage_label">HANDMADE IN KARNATAKA</string>
+    <string name="tagline">Digital Portfolio Assistant for Artisans</string>
+    <string name="camera_permission_required">Camera permission is required to capture product photos</string>
+    <string name="capture_photo">📷  Capture Photo</string>
+    <string name="retake">Retake</string>
+    <string name="next">Next →</string>
+</resources>
